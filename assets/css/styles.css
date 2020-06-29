@@ -1,0 +1,153 @@
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+    #row1 {
+        height: auto; 
+        text-align: center;
+        padding: 10px;
+        background-color: #7FDAEC;
+    }
+
+    .row1 {
+        background-color: #7FDAEC;
+        height: auto;
+        padding: 5px;
+    }
+
+    .socialIcons {
+      height: auto;
+      background-color:#2F5597;
+      padding: 5px;
+    }
+
+    .col-2 img {
+        max-width:200px;
+        max-height:100px;
+        width: auto;
+        height: auto;
+        padding: 5px;
+    }
+
+    .fundoImagem {
+        background-color: #7FDAEC;
+        background-image: url('../images/petsCover2.jpg');
+        background-repeat: no-repeat;
+        height: 180px;
+        max-width: 100%;
+        max-height: 100%;
+        background-position: center;
+        background-size: auto;
+    }
+
+    .col8 {
+        border: 1px solid black;
+        height: auto;
+    }
+
+    .col4 {
+        border: 1px solid black;        
+    }
+
+    .col8 img {
+        width: auto;
+        padding: 7px;
+        overflow: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer p {
+        margin-top: 7px;
+        margin-left: 19px;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#div1 {
+    position: absolute;
+    background-color: coral;
+    margin-left: 30px;
+    height: 90px;
+    width: 900px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.container-fluid {
+      background-color: brown;
+}
+
+
+#div2 {
+    position: absolute;
+    margin-top: 94px;
+    background-color: cadetblue;
+    border-color: black;
+    margin-left: 30px;
+    height: 437px;
+    width: 900px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+#div2a {
+    position: absolute;
+    margin-top: 10px;
+    background-color: beige;
+    margin-left: 10px;
+    height: 400px;
+    width: 150px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+#div3 {
+    position: absolute;
+    margin-top: 535px;
+    background-color: darkgoldenrod;
+    margin-left: 30px;
+    height: 70px;
+    width: 900px;
+}
