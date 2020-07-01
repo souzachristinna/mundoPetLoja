@@ -10,201 +10,228 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script>
+      document.querySelector("body > div.barratopo > span > a:nth-child(1)");
+  </script>
+
+    <style type='text/css'>
+
+        .wa {
+            color: #fff;
+            display: block;
+        }  
+
+        .wa {
+            position: fixed;
+            right: 40px;
+            width: 50px;
+            height: 50px;
+            bottom: 30px;
+            padding: 5px;
+            vertical-align: middle;
+            text-align: center;
+            border-radius: 50%;
+            background: #0ba360;
+            z-index: 1000;
+            z-index: 2000;
+        }
+
+        .wa img {
+            max-width: 30px;
+            margin-top: 4px;
+            vertical-align: middle;
+        }
+
+        *, ::after, ::before {
+           -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+
+        .wa::after, .wa::before {
+            content: '';
+            position: absolute;
+            opacity: 0;
+            border: 4px solid #0ba360;
+            left: -10px;
+            top: -10px;
+            right: -10px;
+            bottom: -10px;
+            animation: WaveWhatsApp 1.5s ease infinite;
+        }
+
+        .wa::after {
+            animation-delay: .5s;
+        }
+
+
+        .barra-laranja {
+            padding: 30px 0;
+            background: #ff6b01 url(../img/bg/titulo.jpg) no-repeat 0 0;
+            background-size: 60% 100%;
+            margin-bottom: 80px;
+        }
+        
+        .barratopo {
+            position: fixed;
+            display: block;
+            left: 0px;
+            top: 0px;
+            padding: 10px;
+            width: 100%;
+            height: 35px;
+            z-index: 99999;
+            background: #001b5f;
+        }
+
+        
+
+        .topo {
+            background: #09184b;
+            padding: 5px 0;
+            color: #6f91ff;
+            margin-top: 50px;
+        }
+
+        .container-fluid {
+            /* color: #ff7b11;*/
+            color: #6f91ff;
+            padding: 7px;
+            background-color: #001b5f;
+            height: autopx;
+            position: fixed;
+            text-align: right;
+            padding-right: 10px;    
+        }
+        
+        .header{            
+            background-color: #001b5f;
+            height: 170px;
+        }
+
+        .row1 {
+            text-align: left;
+            height: 100px; 
+            background-color: #001b5f;
+            
+        }
+
+        .logo {
+            height: 150px;
+            width: 135px;
+        }
+
+    </style>
  
   <title>MundoPet</title>
 
 </head>
-  
-<style type="text/css">
-
-    .mt-0 {
-  margin-top: 0 !important;
-}
-</style>
-
-
-<body>
-
-    <div class="card-columns">
-        <!--aqui começa as imagens em card-->
-  
-        <div class="card">
-          <img class="img-fluid card-img-top" src="assets/images/img02.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Rações secas para cães</h5>
-          </div>
-        </div>
-
-
-        <div class="card p-3">
-            <img class="img-fluid card-img-top" src="assets/images/img13.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h4>Temos!</h4>
-                <h5 class="card-title">Rações por quilo.</h5>
-              </div>
-        </div>
+<body>  
         
-        <div class="card">
-          <img class="card-img-top img-fluid" src="assets/images/img04.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Rações para pássaros.</h5>
-          </div>
-        </div>
+    <header>
+        <div class="container header">
 
-        <div class="card">
-            <img class="img-fluid card-img-top" src="assets/images/img00.jpg" alt="Card image cap">
-            
-        </div>
-        
-        <div class="card text-center">
-            <img class="card-img-top img-fluid" src="../assets/images/img06.jpg" alt="Card image cap">
-                <div class="card-body">    
-                    <h5 class="card-title">Acessórios diversos para pets.</h5>    
+            <div class="row row1 text-white">
+
+                <div class='col-lg-3 col-md-4 col-sm-12 p-1' style='background-color:  #001b5f;'>
+                    <img src="../assets/images/@MundoPet.jpg" alt="..." class="img-fluid logo p-1" >
                 </div>
-        </div>
-        
-        <div class="card text-center">
-          <img class="card-img img-fluid" src="../assets/images/img10.jpg" alt="Card image">
-            <div class="card-body">    
-                <h5 class="card-title">Rações diversas marcas.</h5>    
-            </div>
-        </div>
-
-        <div class="card bg-primary text-white text-center p-3">
-            <blockquote class="blockquote mb-2">
-                
-                <h1>Venha nos fazer uma visita.</h1>
-                <footer class="blockquote ">
-                <medium>
-                    <span class="material-icons" style='font-size: 30px; text-align: center;'>local_cafe</span>
-                    Esperamos por você!
-                </medium>
-                </footer>
-            </blockquote>
-        </div>
-
-        <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/acesProducts.jpg" alt="Card image">
-              <div class="card-body">    
-                  <h5 class="card-title">Venha conferir. Seu pet vai amar!</h5>
-              </div>
-          </div>
-
-        <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/img10.jpg" alt="Card image">
-              <div class="card-body">    
-                  <h5 class="card-title">Rações diversas marcas.</h5>    
-              </div>
-        </div>
-        
-        <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/img03.jpg" alt="Card image">
-              <div class="card-body">    
-                  <h5 class="card-title">Rações e produtos para felinos.</h5>    
-              </div>
-        </div>
-
-        <!--cards especiais-->>
-        <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/wallpCat.jpg" alt="Card image">
-            <div class="card-body">    
-                <h5 class="card-title mb-0">#NãoCompreAdote.</h5> 
-                
-                <footer class="blockquote-secundary">
-                <a href="https://www.facebook.com/amigopetviralatas/" target="blank"><small class="text-muted">Siga grupos da causa animal nas Redes Sociais</small></a>
-                </footer>
-            </div>
-        </div>
-
-
-         <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/img15.jpg" alt="Card image">
-            <div class="card-body">    
-                  <h5 class="card-title">Sachês para Cães e Gatos.</h5>    
-            </div>
-        </div>
-        
-        <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/img11.jpg" alt="Card image">
-            <div class="card-body">    
-                  <h5 class="card-title">Petiscos para a alegria do seu Pet.</h5>    
-            </div>
-        </div>
-
-
-        <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/img20.jpg" alt="Card image">
-            <div class="card-body">    
-                  <h5 class="card-title">Visitando Canoas/RS? <br> Venha até nós.</h5>    
-            </div>
-        </div>
-
-        <!--cards especiais-->       
-
-        <div class="card text-center">
-            <img class="card-img img-fluid" src="../assets/images/street dog2.jpg" alt="Card image">
-            <div class="card-body">    
-                <h5 class="card-title mb-0">Apoiamos a causa animal.</h5> 
-                  
-                <footer class="blockquote-secundary">
-                <a href="https://atevidf.wixsite.com/protecao-animal-pt" target="blank"><small class="text-muted">Visite Atevi Proteção Animal</small></a>
-                </footer>
-            </div>
-        </div>
-
-        <!--Carousel-->>
-        <div class="card text-center">
-            
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
+    
+                <div class='col-lg-4 col-md-4 col-sm-12' style='background-color:  #001b5f;'>
                     
-                </ul>
+                        <a href="https://api.whatsapp.com/send?phone=5561998519369&amp;text=Olá"  style="font-size: 20px;" class='text-white'><img class='img-fluid' src="../assets/images/iconZap.png" style="width: 37px; color: white; margin-top: 7px;" alt=""> (61) 99851.9369</a>
+                        <br>
+                        <a href="#"  style="font-size: 20px;"><img class='img-fluid mb-3' src="../assets/images/iconEmail.png" style="width: 37px; color: white; margin-top: 7px;" alt=""></a>
+                    
+                        <a href="#"  style="font-size: 20px;"><img class='img-fluid mb-3' src="../assets/images/iconInstagram4.png" style="width: 37px; color: white; margin-top: 7px;margin-right: 85px;" alt=""></a>   
+                </div>
 
-                <!-- The slideshow -->
+                <div class='col-lg-4 col-md-4 col-sm-12 p-1' style='background-color:  #001b5f;'>
+                    
+                    <p>hj é dia 29/06/2020</p>
+                     
+
+                    <a href="#"  style="font-size: 20px;"><img class='img-fluid mb-3' src="../assets/images/iconCurtir.png" style="width: 37px; color: white; margin-top: 7px;margin-right: 35px;" alt=""></a>curtir 
                 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../assets/images/foto_WA0011.jpg" alt="foto_Loja" class="w-100" height="650" class="img-fluid" >
-                        </div>
+                </div>
 
-                        <div class="carousel-item">
-                            <img src="../assets/images/foto_WA0012.jpg" alt="foto_Loja" class="w-100" height="650" class="img-fluid">
-                        </div>
+            </div> <!--row end-->
+      
+        </div> <!--container end-->
+    </header>
 
-                        <div class="carousel-item">
-                            <img src="../assets/images/foto_WA0013.jpg" alt="foto_Loja" class="w-100" height="650" class="img-fluid">
-                        </div>
+    <main>
 
-                    </div>
-            </div>
-            
-                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+        <div class="container my-1" style="background-color: blue; margin-top: 300px;">
+            <div class='row text-white'>
 
-                        <a class="carousel-control-next" href="#myCarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                <div class='col-lg-4 col-md-4 col-sm-12 mb-4'>
+    
+                    ....
+                </div>
+    
+    
+                <div class='col-lg-4 col-md-4 col-sm-12 mb-4'>
+    
+                    ....
+                </div>
+    
+    
+                <div class='col-lg-4 col-md-4 col-sm-12 mb-4'>
+    
+                    .....
+                    
+                </div>
+    
+    
+    
+            </div> <!--row end-->
+        </div> <!--container end>
+    </main>
 
-        </div> <!--fechamento card carousel-->
-            
         
-            
-    </div>
-
-</div> <!-- fechamento class card-columns-->
+       
+    
 
 
-    <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
 
+    
+
+
+
+    <a class="wa" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5561998519369&amp;text=Olá');" href="https://api.whatsapp.com/send?phone=5561998519369&amp;text=Olá" target="_blank">
+        
+        ::before
+        <img src="img/ico-whatsapp.png" alt="WhatsApp 55 61 998519369">
+        ::after
+    </a>
 
 </body>
 
 </html>
+
+
+<!--div class='col-sm-4 logo'>
+                    <span>
+                        <a href="#" ><img class="img-fluid" src="../assets/images/MundoPet.png" style=" width: 120px; height: 120px," alt="" title='Mundo Pet'></a>
+                    </span>
+                </div>
+
+                <div class='col-sm-6 ml-4'>
+
+                    <span>
+                        <a href="https://api.whatsapp.com/send?phone=5561998519369&amp;text=Olá"  style="font-size: 20px;"><img class='img-fluid' src="../assets/images/iconZap.png" style="width: 37px; color: white; margin-top: 10px;" alt=""> (61) 99851.9369</a>
+                
+                    </span><br>
+
+                    <span>
+                        <a href="#"  style="font-size: 20px;"><img class='img-fluid' src="../assets/images/iconEmail.png" style="width: 37px; color: white; margin-top: 10px;" alt=""></a>
+                
+                    </span>
+
+                    <span>
+                        <a href="#"  style="font-size: 20px;"><img class='img-fluid' src="../assets/images/iconInstagram4.png" style="width: 37px; color: white; margin-top: 10px;margin-right: 85px;" alt=""></a>
+                
+                    </span>
+
+                </div-->

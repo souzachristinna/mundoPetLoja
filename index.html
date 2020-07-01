@@ -11,60 +11,105 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/f33f0d5316.js" crossorigin="anonymous"></script>
   <script src="assets/js/javaScript.js"></script>
   
   <title>MundoPet</title>
-
-  
 
 </head>
 
 <body onload="myFunction1(); myFunction()">
     
-    <!-- Header -->
     <header>
-        <div class="container-fluid fundoImagem img-fluid" style="height: 250px">
-            
-            <div class="row" id="row1">
-                             
-                <div class="col-2 col-xs img-fluid">   
-                <img src="assets/images/MundoPet.png" alt="meuLogo">
-                </div>
-                
-                <div class="col-8 col-xs img-fluid">
+        <div class="container" style="background-color: darkblue;">
+                <!-- Grid row-->
+                <div class="row d-flex align-items-center">
+        
+                    <div class="col-md-3 col-lg-2 text-center text-md-left mb-2 mb-md-0" >
+                        <img class= "p-1 img-fluid my-1" src="assets/images/@MundoPet.jpg" alt="logo" title="Mundo Pet Logo" style="width: 100px; height: 100px;">
+                    </div>
                     
-                </div>
-            </div>
-        </div>
+                    
+                    <div class="col-md-3 col-lg-6 text-center text-md-left text-lg-left mb-2 mb-md-0 text-light">
+                        <i class="fas fa-dog"></i>
+                        <span class="mb-0 ml-auto text-light">&nbsp; Faça seu PET feliz! &nbsp;</span>
+                        <i class="fas fa-cat"></i>
+                    </div>
+                    
+                
+                    <div class="col-md-6 col-lg-4 text-center text-md-right share">
+        
+                        <!-- Facebook -->
+                        <span>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.devmedia.com.br/social-buttons-incluindo-botoes-sociais-em-seu-site/22071" target="_blank" class="facebook-share" title="Compartilhe no Facebook">
+                                <i class="fab fa-facebook-f mr-2 text-white" style='opacity: 0.6;'></i> 
+                            </a>
+                        </span>
+        
+                        <!-- Whatsapp -->
+                        <span>
+                            <a href="whatsapp://send?text=https://www.devmedia.com.br/social-buttons-incluindo-botoes-sociais-em-seu-site/22071" target="_blank" class="Whatsapp-share" title="Compartilhe no Whatsapp">
+                                <i class="fab fa-whatsapp mr-2 text-white" style='opacity: 0.6;'></i>
+                            </a>
+                        </span>
+        
+                        <!-- Twitter -->
+                        <span>
+                            <a href="https://twitter.com/intent/tweet?text=Veja%20esse%20conteÃºdo%20na%20%40DevMedia%3A%20Social+Buttons%3A+Incluindo+Bot%C3%B5es+Sociais+em+seu+site+https%3A%2F%2Fwww.devmedia.com.br%2Fsocial-buttons-incluindo-botoes-sociais-em-seu-site%2F22071" target="_blank" class="twitter-share" title="Compartilhe no Twitter">
+                                <i class="fab fa-twitter mr-2 text-white" style='opacity: 0.6;'> </i>  
+                            </a>
+                        </span>
+        
+                        <!-- Telegram -->
+                        <span>
+                            <a href="https://t.me/share/url?url=Veja%20esse%20conteÃºdo%20na%20%40DevMedia%3A%20Social+Buttons%3A+Incluindo+Bot%C3%B5es+Sociais+em+seu+site+https%3A%2F%2Fwww.devmedia.com.br%2Fsocial-buttons-incluindo-botoes-sociais-em-seu-site%2F22071" target="_blank" class="Telegram-share" title="Compartilhe no Telegram">
+                                <i class="fab fa-telegram-plane mr-2 text-white" style='opacity: 0.6;'></i>
+                            </a>
+                        </span>
+        
+                        <!--Messenger-->
+                        <span>
+                            <a href="fb-messenger://share?link=Veja%20esse%20conteÃºdo%20na%20%40DevMedia%3A%20Social+Buttons%3A+Incluindo+Bot%C3%B5es+Sociais+em+seu+site+https%3A%2F%2Fwww.devmedia.com.br%2Fsocial-buttons-incluindo-botoes-sociais-em-seu-site%2F22071" target="_blank" class="Messenger-share" title="Compartilhe no Messenger">
+                                <i class="fab fa-facebook-messenger mr-2 text-white" style='opacity: 0.6;'></i>
+                            </a>
+                        </span>
+                        <br>
+                        <!--Curtir a Página-->
+                        <span>
+                            <a href="#" onclick='clicar()' title="Curta nossa página" class='text-white' style='opacity: 0.6;'>
+                                <i class="far fa-thumbs-up mr-2 text-white mt-3 mb-4 mt-2" style='opacity: 0.6;'></i>Curta nossa página
+                            </a>
+                        </span>
+                    </div>
+            </div> <!--end row-->
+        </div> <!-- end container-->
     </header>
         
     <main style="background-color: transparent">
         
-        <!--nav Redes Sociais -->
-        <div class="container-fluid" style="background-color: transparent">
+        <!--Corpo do Site -->
+        <div class="container" style="background-color: lightblue">
             <div class="row socialIcons">
                 
-                <div class="col-sm-4 col-xs text-white">
-                  <h2>Benvindo</h2>
+                <div class="col-sm-6 col-md-4 col-lg-4 text-white ola text-lg-left">
+                  <p class='col-sm-12 my-1'>Olá! Seja bem-vindo ao Mundo Pet.</p>
                 </div>
                 
-                <div class="col-sm-3 col-xs text-white" style='font-family: sans-serif; font-size: 12px; margin-top: 7px;'>
-                        Olá!                            
-                        <span id="demo1">aqui você visualiza o dia da semana</span><br>
+                <div class="col-sm-6 col-lg-2 col-md-4 text-white my-1" style='margin-top: 7px;'>
+                                                
+                        <span id="demo1">aqui você visualiza o dia da semana</span>
                         <span id='demo2'>aqui você visualiza a data</span>
                 </div>
 
-                <div class="col-sm-2 col-xs text-white"></div>
-
-                    <div class="col-sm-3 col-xs text-white" style="font-family: sans-serif; font-size: 14px;">
-                    <a href="#"><span class="material-icons mt-2 text-white" onclick='clicar()'>thumb_up</span></a>
-                    <!--img onclick='clicar()' src="assets/images/iconCurtir.png" alt="iconCurtir" width="40" height="40" style="margin-right: 12px;"--><span id='soma' style="font-family: sans-serif; font-size: 12px;"></span> &nbsp;curtiram essa página
-                    </div>
+                <div class="col-sm-12 col-lg-6 col-md-4 text-white text-right ola">
+                    <a href="#"><span class="material-icons mt-2 text-white" style='font-size: 15px'        onclick="clicar()">thumb_up</span></a>
+                    <span id='soma'></span> &nbsp;curtiram essa página
+                  
                 </div> 
             </div>
-        
 
             <!-- Corpo da Página-->
+        <div class="container" style='background-color: lightblue;'>
             <div class="card-columns">
                 
                 <!--aqui começa as imagens em card-->
@@ -99,6 +144,7 @@
 
                 <div class="card">
                     <img class="img-fluid card-img-top" src="assets/images/img00.jpg" alt="Card image cap">  
+                    
                 </div>
             
                 <div class="card text-center">
@@ -248,60 +294,111 @@
                         
             </div>
         </div> <!-- fechamento class card-columns-->
+    </div> <!--fechamento container-->
 
     </main>
 
-    <footer style="background-color: #2F5597;">
-        <div class="container-fluid" style="border: 1px solid black;
-                                            background-color: transparent;">
 
-            <div class="row footer">
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left" style="padding: 1px; height: auto; background-color: darkblue;">
+    
+            <!-- Grid row -->
+            <div class="row text-white">
+        
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1 p-1">
                 
-                <div class="col-sm-4 col-xs">
-                
-                <p><span class="material-icons" style="margin-top: 10px; color: white; ">storefront</span> <br> Rua Augusto Severo, 1058 <br> Nossa Senhora das Graças - Canoas/RS <br>
-                   <a href="https://api.whatsapp.com/send?phone=5551998768304&text=Oi%20Gostei%20da%20HomePage" target="blank"><img src="assets/images/iconZap.png" alt="iconWhastapp" width="20" height="20" style="margin-top: 1px"></a> (51) 9 9876-8304</p>
-                    
+                <h5 class="mb-2 mt-0 ml-4" >Nos localize</h5>
+                <!-- Content -->
+                    <a href="https://www.google.com.br/maps/place/R.+Augusto+Severo,+1058+-+Niter%C3%B3i,+Canoas+-+RS,+92110-390/@-29.9362873,-51.1681707,17z/data=!3m1!4b1!4m5!3m4!1s0x9519706386c24ecd:0x5ee1d71ae28e0bb2!8m2!3d-29.936292!4d-51.165982" target="_blank">
+                    <img class='ml-4' src="assets/images/mapsLocation.png" alt="GoogleMaps" title='Nos encontre no Mapa'></a>
                 </div>
+                <!-- Grid column -->
+        
+                <hr class="clearfix w-100 d-md-none">
+        
+                <div class="col-md-4 col-lg-4 my-md-4 my-0 mt-4 mb-1 mt-1 ">
+        
+                    <!-- Contact details -->
+                    <h5 class="mb-2">&nbsp;&nbsp;&nbsp;Estamos aqui</h5>
+        
+                    <ul class="list-unstyled">
+                        <li>
+                        <p class="ml-3 text-light" style="font-size: 16px;">
+                            
+                            <i class="fas fa-home mr-2 my-2 text-light" style="font-size: 24px;"></i> Rua Augusto Severo, 1058 <br> N. Sra. das Graças - Canoas/RS</p>
+                        </li>
 
-                <div class="col-sm-4 col-xs">
-                    
-                    <p style="margin-top: 15px; margin-left: 7px;"><a href="https://www.google.com.br/maps/place/R.+Augusto+Severo,+1058+-+Niter%C3%B3i,+Canoas+-+RS,+92110-390/@-29.9362873,-51.1681707,17z/data=!3m1!4b1!4m5!3m4!1s0x9519706386c24ecd:0x5ee1d71ae28e0bb2!8m2!3d-29.936292!4d-51.165982" target="blank"><img src="assets/images/mapsLocation.png" alt="imagemGoogleMaps" style="max-width: 100%; height: 150px; width: 250px;"></a>
-                    </div>
-                
-                <!--div class="col-sm-2 col-xs">
-                    
-                    <p style="font-size: 12px; margin-left: 0px; margin-top: 2px;><a href="mailto:souzachristinna@gmail.com"><img src="assets/images/iconEmail.png" alt="Contato" width="40" height="40" style="margin-top: 15px;"></a>
-                    <a href="https://api.whatsapp.com/send?phone=5551998768304&text=Oi%20Gostei%20da%20HomePage" target='blank'><img src="assets/images/iconZap.png" alt="iconWhastapp" width="40" height="40" style="margin-top: 15px"></a><br>Fale Conosco</p>        
-                </div-->
-
-                <div class="col-sm-2 col-xs socialIcons">
-                    
-                    <!--img src="assets/images/iconFace.png" alt="iconFacebook" width="40" height="40" style="margin-right: 20px; margin-top: 15px;"-->
-                    <p style="font-size: 12px; margin-left: 0px; margin-top: 2px;">
-                        <a href="mailto:souzachristinna@gmail.com"><img src="assets/images/iconEmail.png" alt="Contato" width="40" height="40" style="margin-top: 15px;"></a>
-                        <a href="https://api.whatsapp.com/send?phone=5551998768304&text=Oi%20Gostei%20da%20HomePage" target='blank'><img src="assets/images/iconZap.png" alt="iconWhastapp" width="40" height="40" style="margin-top: 15px"></a><br>Fale Conosco <br>
+                        <li>
+                        <p class="text-light ml-3" style="font-size: 16px; font-style: italic;">
+                            
+                            <a class='text-light' href="mailto:mundopet@gmail.com" target="_blank" alt='logoEmail' title='Envie-nos um email.'>
+                            
+                            <svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-envelope-fill text-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                            </svg>
+                            &nbsp; mundopet@gmail.com</a></p>
+                        </li>
+                        <li>
+                        <span class="mr-2" style="font-size: 16px;"></span>
+                        <a href="tel:51998768304" class="text-light" alt='logoPhone' title="Ligue para nós." target="_blank">&nbsp;
+                            <svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-telephone-fill text-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                            </svg>&nbsp; &nbsp; (51) 9 9876-8304</a>
+                        </li>
+                        
+                    </ul>
+        
                 </div>
-                <div class="col-sm-2  col-xs socialIcons text-white" style="font-size: 14px;">
-                        <a href="https://instagram.com/mundopetcanoas?igshid=xli470xgompj" target="blank"><img src="assets/images/iconInstagram4.png" alt="iconInstagram" width="40" height="40" style="margin-top: 15px;"></a> <br> Siga-nos nas Redes Sociais
-                    </p>
+        
+                <hr class="clearfix w-100 d-md-none">
+        
+                <div class="col-md-3 col-lg-4 text-center mx-auto my-4">
+        
+                    <!-- Social buttons -->
+                    <h5 class="font-weight-bold mb-4">Follow Us</h5>
+            
+                    <!-- Instagram -->
+                    <a href='https://instagram.com/mundopetcanoas?igshid=xli470xgompj'>
+                        <img src="assets/images/iconInstagram4.png" alt="iconInstagram" title='Siga-nos' style="width: 50px; height: 50px;" class="mb-5">
+                    </a>
+                    
+                    <h5 class="font-weight-bold mb-4">Fale Conosco</h5>
+            
+                    <!-- Whatsapp Chat -->
+                    <a href='https://api.whatsapp.com/send?phone=5551998768304&text=Oi%20Gostei%20da%20HomePage'>
+                        <img src="assets/images/iconZap.png" alt="iconInstagram" title='Siga-nos' style="width: 50px; height: 50px;" class="mb-1">
+                    </a>
                 </div>
+        
+                <!--Contato Zap Fixo-->
+                <div id="myDiv" class="d-lg-none d-md-none"></div>
 
-                <!--div class="col-sm-2 col-xs socialIcons">
-                    <p style="font-size: 12px; margin-top: 12px;"><a href="https://instagram.com/mundopetcanoas?igshid=xli470xgompj" target="blank"><img src="assets/images/iconInstagram4.png" alt="iconInstagram" width="40" height="40"></a> Siga-nos nas Redes Sociais</p>
-                    <img src="assets/images/iconTwitter.png" alt="iconTwitter" width="40" height="40" style="margin-right: 20px; margin-top: 15px;"-->
-                    <!--p style="font-size: 12px; margin-left: 0px; margin-top: 2px;">Siga-nos nas <br> Redes Sociais</p>
-                </div-->
+                <a class='wa class="d-lg-none d-md-none "' href='https://api.whatsapp.com/send?phone=5551998768304&amp;text=Olá' target="_blank"><img src="assets/images/iconZap.png" alt="WhatsApp 55 51 9 9876 8304" title="Whastapp" width="40px" height="40px" style="margin-top: 6px;" class="img-fluid"></a>
 
+            </div> <!--end row-->
+        </div> <!--end contanier-->
+    
+            <!-- Copyright -->
+        <div class="container" style="background-color: #2F5597; height: 80px;">
+            <div class="text-center py-1 text-light small" >© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
             </div>
-
-            <div class="row" style="height: auto; padding: 1px;">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4 text-center" style="color: white; font-size: 10px; font-style: italic;">Rights Reserved for Bootstrap 4.0&trade;</div>
-                <div class="col-sm-4 text-center" style="color: white; font-size: 10px; font-style: italic;">Design and Developers by Cristina R. Souza.</div>
+            <div class="text-center text-light small">© 2020 Copyright (c):
+                <a href="https://getbootstrap.com/"> getbootstrap.com</a>
             </div>
-        </div>
+            <div class="text-center text-light small mb-1">
+                <a href="https://api.whatsapp.com/send?phone=5561981013223&text=Oi%20Gostei%20da%20HomePage%20MundoPet">Web Developer: Cristina R. Souza</a>
+            </div>
+            <!-- Copyright -->
+        </div> <!--end container--> 
+
+            
     </footer>
+
 
 </body>
 	
