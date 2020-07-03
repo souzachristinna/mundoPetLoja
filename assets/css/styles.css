@@ -131,21 +131,6 @@
 }
 
 
-.icon_newsletter, .icon_telegram, .icon_share, .icon_comment {
-    text-align: center;
-    width: 85px;
-    height: 40px;
-    display: inline-block;
-    vertical-align: middle;
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
-    line-height: .7rem;
-    font-family: arial;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-}
-
 .share a {
     color: black;
     text-decoration: none;
